@@ -1,0 +1,29 @@
+{
+  "name": "desafio",
+  "version": "1.0.0",
+  "description": "TBD.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint cypress/**/*.js",
+    "lint:fix": "eslint cypress/**/*.js --fix",
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run",
+    "cy:default": "npx cypress run --record --key 91a2cfe8-d6c6-4ffa-aa73-7c0e06d840df"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "cypress": "^10.8.0",
+    "cypress-mailosaur": "^2.3.3",
+    "cypress-xpath": "^2.0.1",
+    "eslint": "^7.32.0",
+    "eslint-plugin-cypress": "^2.11.3",
+    "faker": "^5.5.3"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^7.5.0"
+  }
+}
